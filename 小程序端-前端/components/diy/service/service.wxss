@@ -1,0 +1,19 @@
+/* common.wxss */
+/* @import "/utils/common.wxss"; */
+
+/* 在线客服 */
+
+.diy-service {
+  position: fixed;
+  z-index: 999;
+}
+
+.diy-service .service-icon {
+  padding: 10rpx;
+}
+
+.diy-service .service-icon .image {
+  display: block;
+  width: 90rpx;
+  height: 90rpx;
+}

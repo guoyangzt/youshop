@@ -1,0 +1,534 @@
+[
+    {
+        "name": "aliyuncs/oss-sdk-php",
+        "version": "v2.3.0",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aliyun/aliyun-oss-php-sdk.git",
+            "reference": "e69f57916678458642ac9d2fd341ae78a56996c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aliyun/aliyun-oss-php-sdk/zipball/e69f57916678458642ac9d2fd341ae78a56996c8",
+            "reference": "e69f57916678458642ac9d2fd341ae78a56996c8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "satooshi/php-coveralls": "~1.0"
+        },
+        "time": "2018-01-08T06:59:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "OSS\\": "src/OSS"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aliyuncs",
+                "homepage": "http://www.aliyun.com"
+            }
+        ],
+        "description": "Aliyun OSS SDK for PHP",
+        "homepage": "http://www.aliyun.com/product/oss/"
+    },
+    {
+        "name": "guzzle/guzzle",
+        "version": "v3.9.3",
+        "version_normalized": "3.9.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle3.git",
+            "reference": "0645b70d953bc1c067bbc8d5bc53194706b628d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/0645b70d953bc1c067bbc8d5bc53194706b628d9",
+            "reference": "0645b70d953bc1c067bbc8d5bc53194706b628d9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.3",
+            "symfony/event-dispatcher": "~2.1"
+        },
+        "replace": {
+            "guzzle/batch": "self.version",
+            "guzzle/cache": "self.version",
+            "guzzle/common": "self.version",
+            "guzzle/http": "self.version",
+            "guzzle/inflection": "self.version",
+            "guzzle/iterator": "self.version",
+            "guzzle/log": "self.version",
+            "guzzle/parser": "self.version",
+            "guzzle/plugin": "self.version",
+            "guzzle/plugin-async": "self.version",
+            "guzzle/plugin-backoff": "self.version",
+            "guzzle/plugin-cache": "self.version",
+            "guzzle/plugin-cookie": "self.version",
+            "guzzle/plugin-curlauth": "self.version",
+            "guzzle/plugin-error-response": "self.version",
+            "guzzle/plugin-history": "self.version",
+            "guzzle/plugin-log": "self.version",
+            "guzzle/plugin-md5": "self.version",
+            "guzzle/plugin-mock": "self.version",
+            "guzzle/plugin-oauth": "self.version",
+            "guzzle/service": "self.version",
+            "guzzle/stream": "self.version"
+        },
+        "require-dev": {
+            "doctrine/cache": "~1.3",
+            "monolog/monolog": "~1.0",
+            "phpunit/phpunit": "3.7.*",
+            "psr/log": "~1.0",
+            "symfony/class-loader": "~2.1",
+            "zendframework/zend-cache": "2.*,<2.3",
+            "zendframework/zend-log": "2.*,<2.3"
+        },
+        "suggest": {
+            "guzzlehttp/guzzle": "Guzzle 5 has moved to a new package name. The package you have installed, Guzzle 3, is deprecated."
+        },
+        "time": "2015-03-18T18:23:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Guzzle": "src/",
+                "Guzzle\\Tests": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Guzzle Community",
+                "homepage": "https://github.com/guzzle/guzzle/contributors"
+            }
+        ],
+        "description": "PHP HTTP client. This library is deprecated in favor of https://packagist.org/packages/guzzlehttp/guzzle",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ],
+        "abandoned": "guzzlehttp/guzzle"
+    },
+    {
+        "name": "kosinix/grafika",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kosinix/grafika.git",
+            "reference": "211f61fc334b8b36616b23e8af7c5727971d96ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kosinix/grafika/zipball/211f61fc334b8b36616b23e8af7c5727971d96ee",
+            "reference": "211f61fc334b8b36616b23e8af7c5727971d96ee",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2017-06-20T03:13:49+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Grafika\\": "src/Grafika"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Nico Amarilla",
+                "homepage": "https://www.kosinix.com"
+            }
+        ],
+        "description": "An image manipulation library for PHP.",
+        "homepage": "http://kosinix.github.io/grafika",
+        "keywords": [
+            "grafika"
+        ]
+    },
+    {
+        "name": "lvht/geohash",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lvht/geohash.git",
+            "reference": "bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lvht/geohash/zipball/bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29",
+            "reference": "bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2017-08-24T11:05:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Lvht\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "吕海涛",
+                "email": "git@lvht.net",
+                "homepage": "https://github.com/lvht"
+            }
+        ],
+        "description": "geohash like python-geohash",
+        "homepage": "http://github.com/lvht/geohash",
+        "keywords": [
+            "geohash"
+        ]
+    },
+    {
+        "name": "myclabs/php-enum",
+        "version": "1.6.4",
+        "version_normalized": "1.6.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/myclabs/php-enum.git",
+            "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/myclabs/php-enum/zipball/550d2334d77f91b0816a5cbd6965272fe20146b8",
+            "reference": "550d2334d77f91b0816a5cbd6965272fe20146b8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
+            "squizlabs/php_codesniffer": "1.*"
+        },
+        "time": "2018-10-30T14:36:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MyCLabs\\Enum\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP Enum contributors",
+                "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+            }
+        ],
+        "description": "PHP Enum implementation",
+        "homepage": "http://github.com/myclabs/php-enum",
+        "keywords": [
+            "enum"
+        ]
+    },
+    {
+        "name": "qcloud/cos-sdk-v5",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tencentyun/cos-php-sdk-v5.git",
+            "reference": "989c087a5aaf9b5df020b1d2633644e7c9f694e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tencentyun/cos-php-sdk-v5/zipball/989c087a5aaf9b5df020b1d2633644e7c9f694e0",
+            "reference": "989c087a5aaf9b5df020b1d2633644e7c9f694e0",
+            "shasum": ""
+        },
+        "require": {
+            "guzzle/guzzle": "~3.7",
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-27T13:31:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Qcloud\\Cos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "yaozongyou",
+                "email": "yaozongyou@vip.qq.com"
+            },
+            {
+                "name": "lewzylu",
+                "email": "327874225@qq.com"
+            }
+        ],
+        "description": "PHP SDK for QCloud COS",
+        "keywords": [
+            "cos",
+            "php",
+            "qcloud"
+        ]
+    },
+    {
+        "name": "qiniu/php-sdk",
+        "version": "v7.2.7",
+        "version_normalized": "7.2.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/qiniu/php-sdk.git",
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/88d11a5857ebc6871204e9be6ceec54bf5f381e6",
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2018-11-06T13:34:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Qiniu\\": "src/Qiniu"
+            },
+            "files": [
+                "src/Qiniu/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Qiniu",
+                "email": "sdk@qiniu.com",
+                "homepage": "http://www.qiniu.com"
+            }
+        ],
+        "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
+        "homepage": "http://developer.qiniu.com/",
+        "keywords": [
+            "cloud",
+            "qiniu",
+            "sdk",
+            "storage"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.8.49",
+        "version_normalized": "2.8.49.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "a77e974a5fecb4398833b0709210e3d5e334ffb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a77e974a5fecb4398833b0709210e3d5e334ffb0",
+            "reference": "a77e974a5fecb4398833b0709210e3d5e334ffb0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "^2.0.5|~3.0.0",
+            "symfony/dependency-injection": "~2.6|~3.0.0",
+            "symfony/expression-language": "~2.6|~3.0.0",
+            "symfony/stopwatch": "~2.3|~3.0.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2018-11-21T14:20:20+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "topthink/framework",
+        "version": "v5.0.24",
+        "version_normalized": "5.0.24.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/framework.git",
+            "reference": "c255c22b2f5fa30f320ecf6c1d29f7740eb3e8be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/top-think/framework/zipball/c255c22b2f5fa30f320ecf6c1d29f7740eb3e8be",
+            "reference": "c255c22b2f5fa30f320ecf6c1d29f7740eb3e8be",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "topthink/think-installer": "~1.0"
+        },
+        "require-dev": {
+            "johnkary/phpunit-speedtrap": "^1.0",
+            "mikey179/vfsstream": "~1.6",
+            "phpdocumentor/reflection-docblock": "^2.0",
+            "phploc/phploc": "2.*",
+            "phpunit/phpunit": "4.8.*",
+            "sebastian/phpcpd": "2.*"
+        },
+        "time": "2019-01-11T08:04:58+00:00",
+        "type": "think-framework",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\": "library/think"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "the new thinkphp framework",
+        "homepage": "http://thinkphp.cn/",
+        "keywords": [
+            "framework",
+            "orm",
+            "thinkphp"
+        ]
+    },
+    {
+        "name": "topthink/think-installer",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-installer.git",
+            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/top-think/think-installer/zipball/1be326e68f63de4e95977ed50f46ae75f017556d",
+            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev"
+        },
+        "time": "2017-05-27T06:58:09+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "think\\composer\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\composer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "yunwuxin",
+                "email": "448901948@qq.com"
+            }
+        ]
+    }
+]

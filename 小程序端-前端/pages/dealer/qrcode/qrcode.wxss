@@ -1,0 +1,8 @@
+page {
+  background: #fff;
+}
+
+.qrcode image {
+  display: block;
+  width: 100%;
+}

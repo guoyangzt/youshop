@@ -1,0 +1,33 @@
+<!-- 优惠券组 -->
+<view class="diy-coupon" wx:if="{{ dataList.length }}" style="background: {{ itemStyle.background }}; padding: {{ itemStyle.paddingTop }}px 0;">
+
+  <scroll-view scroll-x="{{ true }}">
+    <view class="coupon-wrapper" wx:for="{{ dataList }}" wx:key="this" wx:for-item="dataItem">
+      <view class="coupon-item color__{{ dataItem.state.value ? dataItem.color.text : 'gray' }}">
+        <i class="before" style="background: {{ itemStyle.background }};"></i>
+        <view class="left-content dis-flex flex-dir-column flex-x-center flex-y-center">
+          <view class="content-top">
+            <block wx:if="{{ dataItem.coupon_type.value == 10 }}">
+              <text class="f-30">￥</text>
+              <text class="price">{{ dataItem.reduce_price }}</text>
+            </block>
+            <text class="price" wx:if="{{ dataItem.coupon_type.value == 20 }}">{{ dataItem.discount }}折</text>
+          </view>
+          <view class="content-bottom">
+            <text class="f-22">满{{ dataItem.min_price }}元可用</text>
+          </view>
+        </view>
+        <view class="right-receive dis-flex flex-x-center flex-y-center" catchtap="receiveTap" data-index="{{ index }}" data-state="{{ dataItem.state.value }}" data-coupon-id="{{ dataItem.coupon_id }}">
+          <view wx:if="{{ dataItem.state.value }}" class="dis-flex flex-dir-column">
+            <text>立即</text>
+            <text>领取</text>
+          </view>
+          <view wx:else class="state">
+            <text>{{ dataItem.state.text }}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+</view>

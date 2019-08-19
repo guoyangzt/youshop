@@ -1,0 +1,39 @@
+/* common.wxss */
+
+/* @import "/utils/common.wxss"; */
+
+/* 头条快报 */
+
+.diy-special .special-left {
+  padding: 10rpx 20rpx;
+}
+
+.diy-special .special-left .image {
+  display: block;
+  width: 140rpx;
+}
+
+.diy-special .special-content {
+  /* width: 500rpx; */
+  overflow: hidden;
+}
+
+.diy-special .special-content .content-item {
+  padding: 4rpx 0;
+  font-size: 26rpx;
+  color: #141414;
+  /* height: auto; */
+}
+
+.diy-special .special-content.display_1 {
+  height: 44rpx;
+}
+
+.diy-special .special-content.display_2 {
+  height: 88rpx;
+}
+
+.diy-special .special-more {
+  padding: 24rpx 20rpx;
+  font-size: 24rpx;
+}

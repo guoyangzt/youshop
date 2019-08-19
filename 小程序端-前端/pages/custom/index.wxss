@@ -1,0 +1,6 @@
+/* diy组件 */
+@import "../../components/diy/index.wxss";
+
+page {
+  background: #fff !important;
+}

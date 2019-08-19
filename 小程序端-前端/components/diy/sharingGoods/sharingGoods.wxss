@@ -1,0 +1,110 @@
+/* common.wxss */
+/* @import "/utils/common.wxss"; */
+
+/* 商品组 */
+
+.diy-sharingGoods {
+  padding: 20rpx;
+}
+
+.goods-item {
+  height: 320rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.goods-item:last-child {
+  margin-bottom: 0;
+}
+
+/* 商品图片 */
+
+.goods-item_left {
+  display: flex;
+  width: 40%;
+  background: #fff;
+  align-items: center;
+}
+
+.goods-item_left .image {
+  display: block;
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.goods-item_right {
+  position: relative;
+  width: 60%;
+}
+
+/* 商品名称 */
+
+.goods-item_right .goods-item_title {
+  height: 72rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  line-height: 1.3;
+  color: #333;
+}
+
+.goods-item_desc {
+  margin-top: 16rpx;
+}
+
+/* 商品卖点 */
+
+.desc-selling_point {
+  width: 400rpx;
+  /* height: 40rpx; */
+  font-size: 24rpx;
+  line-height: 1.4;
+  color: #ff495e;
+}
+
+/* 拼团信息 */
+
+.desc-situation {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  line-height: 1.3;
+  color: rgb(240, 60, 60);
+}
+
+.desc-situation .people {
+  margin: 0 12rpx;
+}
+
+/* 商品价格 */
+
+.desc_footer {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+}
+
+.desc_footer .price_x {
+  margin-right: 16rpx;
+  color: rgb(240, 60, 60);
+  font-size: 28rpx;
+}
+
+.desc_footer .price_y {
+  text-decoration: line-through;
+}
+
+/* 去拼团按钮 */
+
+.goods-item .btn-settlement {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 28rpx;
+  border-radius: 40rpx;
+  background: linear-gradient(to right, rgb(235, 53, 107) 0%, rgb(240, 60, 60) 100%);
+  box-shadow: 0 4rpx 20rpx -4rpx rgb(235, 53, 107);
+  font-size: 28rpx;
+  line-height: 54rpx;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="recharge-order">
+    <scroll-view bindscrolltolower="bindDownLoad" scroll-y style="height: {{ scrollHeight }}px">
+      <view wx:for="{{ list.data }}" wx:key="this" class="order-item dis-flex flex-x-between flex-y-center">
+        <view class="item-left">
+          <view class="rec-status">
+            <text>{{ item.scene.text }}</text>
+          </view>
+          <view class="rec-time">
+            <text>{{ item.create_time }}</text>
+          </view>
+        </view>
+        <view class="item-right">
+          <text>{{ item.money > 0 ? '+' : '' }}{{ item.money }}元</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

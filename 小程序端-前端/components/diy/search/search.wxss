@@ -1,0 +1,33 @@
+/* common.wxss */
+
+/* @import "/utils/common.wxss"; */
+
+/* 搜索框 */
+
+.diy-search {
+  background: #f1f1f2;
+  padding: 20rpx 20rpx;
+  font-size: 26rpx;
+}
+
+.diy-search .inner {
+  height: 60rpx;
+  background: #fff;
+  overflow: hidden;
+}
+
+.diy-search .inner.radius {
+  border-radius: 10rpx;
+}
+
+.diy-search .inner.round {
+  border-radius: 60rpx;
+}
+
+.diy-search .inner .search-input {
+  height: 60rpx;
+  /* width: 100%; */
+  line-height: 60rpx;
+  color: #999;
+  padding: 0 20rpx;
+}
